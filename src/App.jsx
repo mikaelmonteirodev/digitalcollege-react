@@ -12,6 +12,7 @@ function App() {
 
   const [uf, setUf] = useState(ESTADO_DEFAULT);
 
+  
   useEffect(() => {
     buscarEstados();
   }, []);
